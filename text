@@ -1,0 +1,23 @@
+
+Initialisation de la base de données 
+Création de la base de données et de la table tasks si elle n'existe pas encore.
+
+Définition des structures et des interfaces :
+    Définition des modèles (Task).
+    Définition des interfaces (TaskService et TaskDataLayer).
+
+Implémentation de la couche de données :
+    Implémentation de TaskDataLayerImpl pour interagir avec la base de données pour la création et la     récupération d'une tâche par ID.
+    Implémentation de la couche de service :
+    Implémentation de TaskServiceImpl pour la logique métier de création et de récupération d'une tâche par ID.
+
+Implémentation de la couche contrôleur :
+
+    Implémentation de TaskController pour gérer les requêtes HTTP pour la création et la récupération d'une tâche par ID.
+    Fonctionnalités Implémentées
+
+Création d'une tâche 
+    créer une nouvelle tâche en utilisant l'endpoint POST /tasks.
+
+Affichage d'une tâche par ID :
+    récupérer les détails d'une tâche spécifique en utilisant l'endpoint GET /task/{id}.
